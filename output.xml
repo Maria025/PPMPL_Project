@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20191230 11:23:57.753" rpa="false">
+<suite id="s1" name="PPMPL Project" source="E:\A KULIAH\SEM 5\PPMPL\PPMPL_Project">
+<suite id="s1-s1" name="TestSuite" source="E:\A KULIAH\SEM 5\PPMPL\PPMPL_Project\TestSuite">
+<suite id="s1-s1-s1" name="TestEditNomor" source="E:\A KULIAH\SEM 5\PPMPL\PPMPL_Project\TestSuite\TestEditNomor.robot">
+<test id="s1-s1-s1-t1" name="FirstTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.airyrooms.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20191230 11:23:58.422" level="INFO">Opening browser 'chrome' to base url 'https://www.airyrooms.com'.</msg>
+<status status="PASS" starttime="20191230 11:23:58.419" endtime="20191230 11:26:27.713"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191230 11:26:27.726" endtime="20191230 11:26:28.870"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20191230 11:26:30.874" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20191230 11:26:28.871" endtime="20191230 11:26:30.875"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[1]</arg>
+</arguments>
+<msg timestamp="20191230 11:26:30.878" level="INFO">Clicking element 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[1]'.</msg>
+<status status="PASS" starttime="20191230 11:26:30.876" endtime="20191230 11:26:31.123"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20191230 11:26:33.127" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20191230 11:26:31.124" endtime="20191230 11:26:33.127"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[2]/fieldset/input</arg>
+<arg>cezteco@gmail.com</arg>
+</arguments>
+<msg timestamp="20191230 11:26:33.130" level="INFO">Typing text 'cezteco@gmail.com' into text field 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[2]/fieldset/input'.</msg>
+<status status="PASS" starttime="20191230 11:26:33.128" endtime="20191230 11:26:33.605"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[3]/fieldset/input</arg>
+<arg>manatausaya</arg>
+</arguments>
+<msg timestamp="20191230 11:26:33.606" level="INFO">Typing password into text field 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[3]/fieldset/input'.</msg>
+<status status="PASS" starttime="20191230 11:26:33.605" endtime="20191230 11:26:33.890"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20191230 11:26:35.894" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20191230 11:26:33.891" endtime="20191230 11:26:35.894"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[4]/div</arg>
+</arguments>
+<msg timestamp="20191230 11:26:35.897" level="INFO">Clicking element 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[4]/div'.</msg>
+<status status="PASS" starttime="20191230 11:26:35.895" endtime="20191230 11:26:36.070"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20191230 11:26:38.071" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20191230 11:26:36.070" endtime="20191230 11:26:38.072"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[4]</arg>
+</arguments>
+<msg timestamp="20191230 11:26:38.074" level="INFO">Clicking element 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div[2]/div/div[4]'.</msg>
+<status status="PASS" starttime="20191230 11:26:38.073" endtime="20191230 11:26:38.204"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20191230 11:26:40.206" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20191230 11:26:38.204" endtime="20191230 11:26:40.207"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div/a[3]</arg>
+</arguments>
+<msg timestamp="20191230 11:26:40.210" level="INFO">Clicking element 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div/a[3]'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20191230 11:26:40.667" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-46.png"&gt;&lt;img src="selenium-screenshot-46.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191230 11:26:40.231" endtime="20191230 11:26:40.668"></status>
+</kw>
+<msg timestamp="20191230 11:26:40.784" level="FAIL">Element with locator 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div/a[3]' not found.</msg>
+<status status="FAIL" starttime="20191230 11:26:40.208" endtime="20191230 11:26:40.785"></status>
+</kw>
+<status status="FAIL" starttime="20191230 11:23:58.417" endtime="20191230 11:26:40.786" critical="yes">Element with locator 'xpath=//*[@id="main-view"]/div/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div[3]/div/div[3]/div/a[3]' not found.</status>
+</test>
+<status status="FAIL" starttime="20191230 11:23:58.069" endtime="20191230 11:26:40.788"></status>
+</suite>
+<status status="FAIL" starttime="20191230 11:23:58.059" endtime="20191230 11:26:40.797"></status>
+</suite>
+<status status="FAIL" starttime="20191230 11:23:57.983" endtime="20191230 11:26:40.802"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="PPMPL Project">PPMPL Project</stat>
+<stat pass="0" fail="1" id="s1-s1" name="TestSuite">PPMPL Project.TestSuite</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="TestEditNomor">PPMPL Project.TestSuite.TestEditNomor</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
